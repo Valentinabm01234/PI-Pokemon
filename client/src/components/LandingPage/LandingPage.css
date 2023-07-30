@@ -1,0 +1,77 @@
+
+.landing-container{
+    display: flex;
+    flex-direction: row;
+    background-image: url('../../Imagenes/pokeball.gif');
+    background-size: cover;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.text-container{
+    display:flex;
+    flex-direction: column;
+    justify-items: center;
+    align-content: center;
+    margin-top: 25%;
+}
+.landing-text{
+    color: #C50707;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    text-shadow: 2px 0px 2px black, -2px 0px 2px black, 0px 2px 2px black, 0px -2px 2px black ;
+    font-size: 50px;
+    height: 130px;
+    width: 750px;
+  }
+
+
+.landing-button{
+    height: 40px;
+    width: 150px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    background: black;
+    color:#C50707;
+    border-radius: 10px;
+    border:#C50707 solid 3px;
+    cursor: pointer;
+    text-shadow: 1px 0px 1px black, -1px 0px 1px black, 0px 1px 1px black, 0px -1px 1px black ;
+    transition-duration: 200ms;
+    transition-timing-function: ease-in-out;
+          
+}
+
+.landing-button:hover{   
+    color: white;
+    background-color: #C50707;
+    transform: scale(1.1);
+       
+}
+
+
+
+@media (max-width: 1030px){
+
+    .landing-container{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .landing-text{
+        font-size: 35px;
+        height: 65px;
+        width: 375px;
+    }
+
+    .landing-button{
+        margin-top: 20px;
+    }
+
+   img{
+    height: 300px;
+    width: 300px;
+   }
+}

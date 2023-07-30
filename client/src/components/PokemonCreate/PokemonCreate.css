@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.back-create{
+    background-color: black;
+    height: 1000px;
+    padding: 10px;
+    /* min-height: 100vh;
+    min-width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; */
+    
+}
+
+
+
+.create-button{
+    padding: 10px;
+}
+
+.ok{
+    height: 50px;
+    width: 200px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: white;
+    color: #C50707;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.not-ok{
+    height: 50px;
+    width: 260px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: #C50707;
+    color: black;
+    border-radius: 0px;
+    cursor: not-allowed;
+}
+
+.volver-create{
+    height: 40px;
+    width: 100px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    background: black;
+    color:#C50707;
+    border-radius: 10px;
+    border:#C50707 solid 3px;
+    cursor: pointer;
+    margin: 10px;
+    flex-wrap: wrap;
+}
+
+.volver-create:hover{
+    background: white;
+}
+
+.title-create{
+    color: white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-shadow: 1px 0px 1px red, -1px 0px 1px red, 0px 1px 1px red, 0px -1px 1px red ;
+    margin: 20px;
+
+}
+.formulario{
+    padding: 10px;
+    color: aliceblue;
+    border: 1px solid;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position:relative;
+    left: 510px;
+    margin-bottom: 10px;
+    
+}
+
+.error{
+    font-size: 12px;
+    color: red;
+    font-weight: bold;
+}
+
+.type{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+
+.type-content{
+    border: 2px solid white;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 25px;
+    width: 100px;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-around;
+}
+
+.delete-type{
+    color: red;
+    background-color: white;
+    border-radius: 5px;
+    padding-left: 4px;
+    padding-top: 1px;
+    padding-right: 4px;
+    padding-bottom: 1px;
+    cursor: pointer;
+    
+}
+
+@media (max-width: 1030px){
+    
+    .formulario{
+        left: 87px;
+    }
+}

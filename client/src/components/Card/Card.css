@@ -1,0 +1,40 @@
+
+
+.card{
+    background-color:rgb(250, 245, 245);
+    /*font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;*/
+    font-family: 'Copperplate Gothic Light';
+    color:rgb(255, 255, 255);
+    border: solid 3px #C50707;
+    border-radius: 20px;
+    width: 200px;
+    height: 230px;
+    padding-top: 20px;
+    transition-duration: 200ms;
+    transition-timing-function: ease-in-out;   
+    
+}
+
+
+.poke-img{
+    width: 150px;
+    height: 150px
+}
+
+.card:hover{
+    /* background-image: url('https://cdn.dribbble.com/users/283669/screenshots/2851144/gogogo.gif'); */
+    background-image: url('../../Imagenes/PokeballBlackRedSpinner.gif');
+    background-color: rgb(0, 0, 0);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    
+    
+    transform: scale(1.05);
+    color: white;
+    text-shadow: 0.5px 0px 0.5px #C50707, -0.5px 0px 0.5px #C50707, 0px 0.5px 0.5px #C50707, 0px -0.5px 0.5px #C50707
+   
+    
+}
+

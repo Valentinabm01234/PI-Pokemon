@@ -1,0 +1,164 @@
+
+/* .prueba {
+    background-color: black;
+    padding: 0;
+    margin: 0;
+    background-size:cover;
+    height: 100%;   
+} */
+
+body{
+    background-image: url('../../Imagenes/AllsPokeball.jpg');
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-position: center;
+}
+
+.white {
+    color: white;   
+}
+
+.titulo{
+    font-size: 50px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 1px 0px 1px black, -1px 0px 1px black, 0px 1px 1px black, 0px -1px 1px black ;
+}
+
+.titulo-resp{
+    display: none;
+}
+
+.link{
+    text-decoration: none;
+    
+}
+
+.first-navbar{
+    background: #C50707;
+    padding: 5px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.crear{
+    height: 40px;
+    width: 150px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: 7px;
+    background-color: black;
+    color: #C50707;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.crear:hover{
+    color: white;
+}
+
+.reset{
+    height: 40px;
+    width: 150px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    background: black;
+    color:#C50707;
+    border-radius: 10px;
+    border:#C50707 solid 3px;
+    cursor: pointer;
+    text-shadow: 1px 0px 1px black, -1px 0px 1px black, 0px 1px 1px black, 0px -1px 1px black ;
+    margin-top: 27px;
+    margin-bottom: 10px;
+    position:relative;
+    left: 1.8% ;
+}
+
+.reset:hover{
+    color: white;
+    
+}
+
+.orden{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+    grid-gap: 20px;
+    position:relative;
+    margin: 50px;
+    left: 50px ;     
+}
+
+.filter{
+    background-color: black;
+    color: white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+    border: solid 1px white;
+    border-radius: 10px;
+    margin-top: 12px;
+    padding-left: 4px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    
+}
+
+.filt-bar{
+    background: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-around;
+}
+
+.loading-pikachu{
+    position:absolute;
+    left: 30%;
+}
+
+.paginado-resp{
+    display: none;
+}
+
+@media (max-width: 1030px){
+    .titulo{
+        display: none;
+    }
+
+    .titulo-resp{
+        display:flex;
+        flex-direction: column;
+        font-size: 12px;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-shadow: 1px 0px 1px black, -1px 0px 1px black, 0px 1px 1px black, 0px -1px 1px black ;
+    }
+
+    .crear{
+        width: 100px;
+    }
+
+    .reset{
+        width: 75px;
+        height: 35px;
+        font-size: 15px;
+        left: 0.5%;
+        
+    }
+
+    .filter{
+        font-size: 10px;
+        width: 69px;
+    }
+
+    .loading-pikachu{
+        left: 0%;
+    }
+
+    .paginado-resp{
+        display: contents;
+    }
+}

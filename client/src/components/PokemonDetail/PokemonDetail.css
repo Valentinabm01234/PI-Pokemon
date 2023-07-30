@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.background-detail{
+    background-color: black;
+    height: 890px;
+    color:aliceblue;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;   
+}
+
+.details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    margin: 10px;
+    
+}
+
+.pokeball-gif{
+    position: absolute;
+    left: 40%;
+    top: 20%;
+}
+h2 {
+    margin: 5px;
+}
+
+.stats{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    
+}
+.detail-img{
+    margin: 30px;
+}
+
+.volver{
+    height: 40px;
+    width: 100px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    background: black;
+    color:#C50707;
+    border-radius: 10px;
+    border:#C50707 solid 3px;
+    cursor: pointer;
+    margin: 10px;
+    flex-wrap: wrap;
+}
+
+.volver:hover{
+    background: white;
+}
+
+.name-detail{
+    color: #C50707;
+    background: black;
+    border: 3px solid #C50707;
+    border-radius: 20px;
+    /*font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;*/
+    font-family: 'Copperplate Gothic Light';
+    text-shadow: 0.5px 0px 0.5px white, -0.5px 0px 0.5px white, 0px 0.5px 0.5px white, 0px -0.5px 0.5px white ;
+    width: 300px;
+    height: 45px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    margin-bottom: 30px;
+    /* text-shadow: 1px 0px 1px #C50707, -1px 0px 1px #C50707, 0px 1px 1px #C50707, 0px -1px 1px #C50707; */
+}
+
+@media(max-width: 1030px){
+    .pokeball-gif{
+        left:20%;
+        top: 35%
+    }
+
+    h2{
+        font-size: 23px;
+    }
+
+    img {
+        height: 220px;
+        width: 220px;
+    }
+
+   
+}
